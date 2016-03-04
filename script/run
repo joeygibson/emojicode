@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+docker run -it -v $(pwd):/work -w /work joeygibson/emojicode emojicode $*
+
